@@ -1,7 +1,7 @@
 ; HELLO.ASM
 
 .model small                              ; directive for 128 kB code
-.stack 100h                               ; directive for 256 kB stack
+.stack 100h                               ; directive for 256 Byte stack
 
 .data                                     ; data segment
 message db 'hello, world $'
