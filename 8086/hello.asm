@@ -1,4 +1,4 @@
-; HELLO.ASM
+; hello.asm
 
 .model small                              ; directive for 128 kB code
 .stack 100h                               ; directive for 256 Byte stack

@@ -1,4 +1,4 @@
-; ADD.ASM
+; add.asm
 
 .model small
 .stack 100h

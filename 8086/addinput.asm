@@ -1,4 +1,4 @@
-; ADDINPUT.ASM
+; addinput.asm
 
 .model small
 .stack 100h

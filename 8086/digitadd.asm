@@ -1,4 +1,4 @@
-; DIGITADD.ASM
+; digitadd.asm
 
 .model small
 .stack 100h
