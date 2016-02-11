@@ -28,3 +28,8 @@ main endp                                 ; end main procedure
 
 end main                                  ; mentions entry point for linker
 ; end of hello.asm
+
+; OUTPUT
+;
+; hello, world
+;

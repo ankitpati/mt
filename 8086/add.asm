@@ -61,3 +61,8 @@ main endp
 
 end main
 ; end of add.asm
+
+; OUTPUT
+;
+; The sum is 25
+;

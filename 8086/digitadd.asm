@@ -37,3 +37,8 @@ main endp
 
 end main
 ; end of digitadd.asm
+
+; OUTPUT
+;
+; 6
+;

@@ -162,3 +162,11 @@ dispres endp
 
 end main
 ; end of addinput.asm
+
+; OUTPUT
+;
+; Enter two numbers:
+; 43
+; 50
+; The sum is 93
+;

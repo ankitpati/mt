@@ -77,3 +77,8 @@ main endp
 
 end main
 ; end of sub.asm
+
+; OUTPUT
+;
+; The difference is -38
+;
