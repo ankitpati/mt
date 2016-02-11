@@ -1,4 +1,6 @@
 ; sub.asm
+; Date  : 10 February 2016
+; Author: Ankit Pati
 
 .model small
 .stack 100h
@@ -74,3 +76,4 @@ nocarry:
 main endp
 
 end main
+; end of sub.asm

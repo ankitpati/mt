@@ -1,4 +1,6 @@
 ; addinput.asm
+; Date  : 19 January 2016
+; Author: Ankit Pati
 
 .model small
 .stack 100h
@@ -159,3 +161,4 @@ dispres proc
 dispres endp
 
 end main
+; end of addinput.asm

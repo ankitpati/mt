@@ -1,4 +1,6 @@
 ; hello.asm
+; Date  : 19 January 2016
+; Author: Ankit Pati
 
 .model small                              ; directive for 128 kB code
 .stack 100h                               ; directive for 256 Byte stack
@@ -25,3 +27,4 @@ main proc                                 ; main procedure
 main endp                                 ; end main procedure
 
 end main                                  ; mentions entry point for linker
+; end of hello.asm
