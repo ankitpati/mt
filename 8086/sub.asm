@@ -28,10 +28,7 @@ main proc
     sub al, num2
     jnc nocarry                             ; jnc: Jump If No Carry
 
-    mov ah, 255
-    sub ah, al                              ; taking 1's complement
-    mov al, ah
-    add al, 1                               ; 2's complement = 1's compl + 1
+    neg al                                  ; neg: negation, i.e. 2's complement
 
     mov ah, 9h                              ; must use 9h, as 2h sets al
     mov dx, offset minus                    ;     and destroys the result
