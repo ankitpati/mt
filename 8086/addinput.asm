@@ -83,7 +83,7 @@ convbin proc
         mov byte ptr [di], al
 
         inc si
-        loop loop1;
+        loop loop1
     ; end of first input conversion
 
     ; second input conversion
@@ -106,7 +106,7 @@ convbin proc
         mov byte ptr [di], al
 
         inc si
-        loop loop2;
+        loop loop2
     ; end of second input conversion
 
     ret
