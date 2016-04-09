@@ -9,8 +9,8 @@
 main proc
     mov ah, 2h
 
-    mov dl, 31h
-    mov cx, 5
+    mov dl, 30h
+    mov cx, 10
     l1:
         int 21h
         inc dl
@@ -21,8 +21,8 @@ main proc
     mov dl, 10
     int 21h
 
-    mov dl, 35h
-    mov cx, 5
+    mov dl, 39h
+    mov cx, 10
     l2:
         int 21h
         dec dl
@@ -38,6 +38,6 @@ end main
 
 ; OUTPUT
 ;
-; 12345
-; 54321
+; 0123456789
+; 9876543210
 ;
